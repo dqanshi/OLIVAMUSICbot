@@ -61,9 +61,12 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="https://telegra.ph/file/a4fa687ed647cfef52402.jpg",
         reply_markup=keyboard,
-        caption=" **Playing** here the song requested by {}! Powered by [HACKELITE](t.me/hackelitebotlist)
-".format(
-        message.from_user.mention()
-        ),
+        caption=" **Playing** here the song requested by {}!".format(
+  message.from_user.mention()
+        ).
     )
         return await lel.delete()
+
+
+
+      
