@@ -19,7 +19,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @errors
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **Processing** sounds...")
+    lel = await message.reply("”„ **Processing** sounds...")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -27,7 +27,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔊 Channel",
+                        text="🔰 Channel",
                         url="https://t.me/hackelitebotlist")
                    
                 ]
@@ -40,7 +40,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❄1�7 Videos longer than {DURATION_LIMIT} minute(s) aren't allowed to play!"
+                f" Videos longer than {DURATION_LIMIT} minute(s) aren't allowed to play!"
             )
 
         file_name = get_file_name(audio)
@@ -51,17 +51,18 @@ async def play(_, message: Message):
     elif url:
         file_path = await converter.convert(youtube.download(url))
     else:
-        return await lel.edit_text("❄1�7 You did not give me anything to play!")
+        return await lel.edit_text(" You did not give me anything to play!")
 
     if message.chat.id in hackelite.pytgcalls.active_calls:
         position = await queues.put(message.chat.id, file=file_path)
-        await lel.edit(f"#⃄1�7 **Queued** at position {position}!")
+        await lel.edit(f"**Queued** at position {position}!")
     else:
         hackelite.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_photo(
         photo="https://telegra.ph/file/a4fa687ed647cfef52402.jpg",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {}!".format(
+        caption=" **Playing** here the song requested by {}! Powered by [HACKELITE](t.me/hackelitebotlist)
+".format(
         message.from_user.mention()
         ),
     )
