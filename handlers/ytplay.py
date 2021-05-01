@@ -6,7 +6,7 @@ import youtube_dl
 from pyrogram import Client
 from pyrogram.types import Message, Voice
 from youtube_search import YoutubeSearch
-from callsmusic import callsmusic, queues
+from hackelite import hackelite, queues
 
 import converter
 from downloaders import youtube
@@ -97,7 +97,7 @@ async def play(_, message: Message):
         reply_markup=keyboard2)
         return await lel.delete()
     else:
-        callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
+        hackelite.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_photo(
         photo=thumb_name,
         reply_markup=keyboard,
