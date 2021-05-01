@@ -9,7 +9,7 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 馃幍
+        f"""**Hey, I'm {bn}
 
 I can play music in your group's voice call. Developed by [Hackelite](https://t.me/hackelite01).
 
@@ -19,17 +19,17 @@ Add me to your group and play music freely!**
             [
                 [
                     InlineKeyboardButton(
-                        "馃洜 Source Code 馃洜", url="https://t.me/mayank_ka_b_for_bot")
+                        "Source Code ", url="https://t.me/mayank_ka_b_for_bot")
                   ],[
                     InlineKeyboardButton(
-                        "馃挰 Group", url="https://t.me/hackelite02"
+                        "Group", url="https://t.me/hackelite02"
                     ),
                     InlineKeyboardButton(
-                        "馃攰 Channel", url="https://t.me/hackelitebotlist"
+                        "Channel", url="https://t.me/hackelitebotlist"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "鉃� Add To Your Group 鉃�", url="https://t.me/TG_Group_Music_VC_V2_BOT?startgroup=true"
+                        "Add To Your Group", url="https://t.me/TG_Group_Music_VC_V2_BOT?startgroup=true"
                     )]
             ]
         ),
@@ -38,12 +38,12 @@ Add me to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Group Music Player Online 鉁�**""",
+      await message.reply_text("""**Group Music Player Online**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "馃攰 Channel", url="https://t.me/hackelitebotlist")
+                        "Channel", url="https://t.me/hackelitebotlist")
                 ]
             ]
         )
