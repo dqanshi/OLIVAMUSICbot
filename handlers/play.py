@@ -63,7 +63,7 @@ async def play(_, message: Message):
         reply_markup=keyboard,
         caption=" **Playing** here the song requested by {}!".format(
   message.from_user.mention()
-        ).
+        ),
     )
         return await lel.delete()
 
