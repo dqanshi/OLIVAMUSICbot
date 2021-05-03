@@ -89,7 +89,7 @@ async def play(_, message: Message):
     else:
         return await lel.edit_text("❗ You did not give me anything to play!")
 
-    if message.chat.id in callsmusic.pytgcalls.active_calls:
+    if message.chat.id in hackelite.pytgcalls.active_calls:
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo=thumb_name, 
