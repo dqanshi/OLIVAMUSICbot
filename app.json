@@ -1,9 +1,9 @@
 {
-  "name": "Music Bot",
-  "logo": "https://telegra.ph/file/b5e6ccb96e9c3b34f4f95.jpg",
+  "name": "oliva Music Bot",
+  "logo": "https://telegra.ph/file/3f661bff9f20cb886d02c.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/hackelite01/TgGroupMusicVcBot2",
+  "repository": "https://github.com/dqanshi/TgGroupMusicVcBot2",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -16,9 +16,30 @@
     },
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
-      "required": false,
+      "required": true,
       "value": ""
     },
+    "BOT_USERNAME": {
+      "description": "Your MusicPlayer Bot USERNAME WITHOUT @ .",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your OWNER USERNAME WITHOUT @.",
+      "required": true,
+      "value": ""
+    },
+    "CHANNEL_ID": {
+      "description": "Your CHANNEL USERNAME WITHOUT @.",
+      "required": true,
+      "value": ""
+    },
+    "GROUP_ID": {
+      "description": "Your support group username without @.",
+      "required": true,
+      "value": ""
+    },
+
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
@@ -30,12 +51,12 @@
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true,
-      "value":"997887920"
+      "value":" "
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "10"
+      "value": "15"
     }
   }
 }
