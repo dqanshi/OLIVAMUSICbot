@@ -30,7 +30,7 @@ Add me to your group and play music freely!**
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "Add To Your Group", url="https://t.me/BOT_USERNAME?startgroup=true"
+                        "Add To Your Group", url="https://t.me/(BOT_USERNAME)?startgroup=true"
                     )]
             ]
         ),
