@@ -10,7 +10,7 @@ BOT_NAME = getenv("BOT_NAME")
 BOT_USERNAME = getenv("BOT_USERNAME")
 CHANNEL_ID = getenv("CHANNEL_ID")
 GROUP_ID = getenv("GROUP _ID")
-
+OWNER_ID = getenv("OWNER_ID")
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
