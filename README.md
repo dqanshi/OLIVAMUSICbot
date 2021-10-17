@@ -1,7 +1,7 @@
 <h2 align="centre">Tg Group Music VC  Bot V2 🎵</h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/b5e6ccb96e9c3b34f4f95.jpg">
+  <img src="https://telegra.ph/file/3f661bff9f20cb886d02c.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
@@ -26,12 +26,12 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hackelite01/TgGroupMusicVcBot2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dqanshi/OLIVAMUSICbot)
 
 Use [@StringSessionGeneratorRobot](https://t.me/StringSessionGeneratorRobot) to get pyrogram string session
 
-### old Repo [Here](https://github.com/hackelite01/TgGroupMusicVcBot)
-
 ## Telegram Group:
-<a href="https://t.me/hackelite01"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Olivia_Music_Support"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 #### Join Telegram group for help, feedback, details and chats.
+## credit 
+hackerlite
