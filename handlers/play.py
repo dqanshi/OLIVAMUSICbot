@@ -3,11 +3,11 @@ from os import path
 from pyrogram import Client
 from pyrogram.types import Message, Voice
 
-from hackelite import hackelite, queues
+from Oliva import oliva, queues
 
 import converter
 from downloaders import youtube
-
+from config import CHANNEL_ID,OWNER_ID
 from config import BOT_NAME as bn, DURATION_LIMIT
 from helpers.filters import command, other_filters
 from helpers.decorators import errors
@@ -28,7 +28,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="🔰 Channel",
-                        url="https://t.me/hackelitebotlist")
+                        url="https://t.me/(CHANNEL_ID)")
                    
                 ]
             ]
