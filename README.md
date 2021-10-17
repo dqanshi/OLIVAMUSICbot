@@ -1,4 +1,4 @@
-<h2 align="centre">Tg Group Music VC  Bot V2 🎵</h2>
+<h2 align="centre">OLIVA V2 🎵</h2>
 
 <p align="center">
   <img src="https://telegra.ph/file/3f661bff9f20cb886d02c.jpg">
