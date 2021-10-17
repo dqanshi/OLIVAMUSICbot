@@ -1,5 +1,5 @@
 from pyrogram import Client
-from pytgcalls.pytgcalls import PyTgCalls
+from pytgcalls import PyTgCalls
 
 import config
 from . import queues
@@ -20,4 +20,4 @@ def on_stream_end(chat_id: int) -> None:
         )
 
 
-run = pytgcalls.run
+run = pyTgcalls.run
