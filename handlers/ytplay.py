@@ -6,7 +6,7 @@ import youtube_dl
 from pyrogram import Client
 from pyrogram.types import Message, Voice
 from youtube_search import YoutubeSearch
-from Oliva import oliva, queues
+from Oliva import Oliva, queues
 
 import converter
 from downloaders import youtube
