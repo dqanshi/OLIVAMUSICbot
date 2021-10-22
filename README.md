@@ -28,7 +28,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dqanshi/OLIVAMUSICbot)
 
-Use [@StringSessionGeneratorRobot](https://t.me/StringSessionGeneratorRobot) to get pyrogram string session
+Use pyrogram string session
 
 ## Telegram Group:
 <a href="https://t.me/Olivia_Music_Support"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
