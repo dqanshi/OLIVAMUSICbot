@@ -3,7 +3,7 @@ from os import path
 from pyrogram import Client
 from pyrogram.types import Message, Voice
 
-from Oliva import oliva, queues
+from Oliva import Oliva, queues
 
 import converter
 from downloaders import youtube
