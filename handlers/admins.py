@@ -2,7 +2,7 @@ from asyncio.queues import QueueEmpty
 
 from pyrogram import Client
 from pyrogram.types import Message
-from Oliva import oliva
+from Oliva import Oliva
 
 from config import BOT_NAME as BN
 from helpers.filters import command, other_filters
